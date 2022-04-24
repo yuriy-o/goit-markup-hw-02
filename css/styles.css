@@ -1,0 +1,109 @@
+/* кастомні властивості або css зміні */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --subtitle-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --add-text-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --second-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+}
+/* замість кольору назначаємо змінні →
+var(--primary-text-color); */
+
+/* ! Основний колір тексту <p> 
++ телефону в хедері
+color: #757575; */
+
+/* Колір H1 
+color: #FFFFFF;
+border: 1px solid #000000; */
+
+/* Колір H2 H3
+color: #212121; */
+
+/* Колір логотипу
+Блакитний → color: #2196F3;
+Чорний → color: #000000; */
+
+/* Колір посилання при наведенні
+color: #2196F3; */
+
+/* Колір тексту в футері
+1. Адреса → color: #FFFFFF;
+2. email → color: rgba(255, 255, 255, 0.6);
+3. телефон → color: rgba(255, 255, 255, 0.6); */
+
+/* Колір кнопки
+background: #2196F3; */
+
+/* Основний колір сторінки
+background: #FFFFFF; */
+/* Вторинний колір фону
+1. Наша команда → background: #F5F4FA;
+2. герой+футер → background: #2F303A; */
+.page {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* header */
+.logo {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .contact {
+  color: #757575;
+}
+.auth-nav .contact:hover,
+.auth-nav .contact:focus {
+  color: var(--accent-color);
+}
+/* body */
+.hero {
+  background-color: var(--footer-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.subtitle {
+  color: var(--subtitle-text-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.footer .logo {
+  color: #ffffff;
+}
+.footer-address {
+  color: #ffffff;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.dfdf{
+    color: ;
+}
