@@ -51,19 +51,24 @@ background: #FFFFFF; */
 /* header */
 .logo {
   color: #000000;
+  text-decoration: none;
 }
 .list {
   list-style: none;
+  
 }
 .site-nav .link {
   color: #212121;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+  
 }
 .auth-nav .contact {
   color: #757575;
+  text-decoration: none;
 }
 .auth-nav .contact:hover,
 .auth-nav .contact:focus {
@@ -96,9 +101,15 @@ background: #FFFFFF; */
 }
 .footer-address {
   color: #ffffff;
+  text-decoration: none;
+}
+.footer-address:hover,
+.footer-address:focus{
+  color: var(--accent-color);
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus {
