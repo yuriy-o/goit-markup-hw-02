@@ -17,12 +17,17 @@
 }
 /* header */
 .logo {
-  color: #000000;
+  color: var(--accent-color);
   text-decoration: none;
+}
+.logo-first-color {
+  color: black;
+}
+.logo-second-color {
+  color: white;
 }
 .list {
   list-style: none;
-  
 }
 .site-nav .link {
   color: #212121;
@@ -31,7 +36,6 @@
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  
 }
 .auth-nav .contact {
   color: #757575;
@@ -63,15 +67,13 @@
 .footer {
   background-color: var(--footer-background-color);
 }
-.footer .logo {
-  color: #ffffff;
-}
+
 .footer-address {
   color: #ffffff;
   text-decoration: none;
 }
 .footer-address:hover,
-.footer-address:focus{
+.footer-address:focus {
   color: var(--accent-color);
 }
 .footer-link {
