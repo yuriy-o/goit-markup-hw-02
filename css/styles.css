@@ -10,40 +10,7 @@
   --second-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
 }
-/* замість кольору назначаємо змінні →
-var(--primary-text-color); */
 
-/* ! Основний колір тексту <p> 
-+ телефону в хедері
-color: #757575; */
-
-/* Колір H1 
-color: #FFFFFF;
-border: 1px solid #000000; */
-
-/* Колір H2 H3
-color: #212121; */
-
-/* Колір логотипу
-Блакитний → color: #2196F3;
-Чорний → color: #000000; */
-
-/* Колір посилання при наведенні
-color: #2196F3; */
-
-/* Колір тексту в футері
-1. Адреса → color: #FFFFFF;
-2. email → color: rgba(255, 255, 255, 0.6);
-3. телефон → color: rgba(255, 255, 255, 0.6); */
-
-/* Колір кнопки
-background: #2196F3; */
-
-/* Основний колір сторінки
-background: #FFFFFF; */
-/* Вторинний колір фону
-1. Наша команда → background: #F5F4FA;
-2. герой+футер → background: #2F303A; */
 .page {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
