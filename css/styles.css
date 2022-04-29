@@ -14,72 +14,149 @@
 .page {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
+
 /* header */
 .logo {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: Raleway, Oleo Script, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
 .logo-first-color {
   color: black;
 }
+
 .logo-second-color {
   color: white;
 }
+
 .list {
   list-style: none;
+  background-color: var(--primary-white-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .site-nav .link {
   color: #212121;
   text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .auth-nav .contact {
   color: #757575;
   text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .auth-nav .contact:hover,
 .auth-nav .contact:focus {
   color: var(--accent-color);
 }
+
 /* body */
 .hero {
   background-color: var(--footer-background-color);
 }
+
 .hero-title {
   color: var(--primary-white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 .hero-button {
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
+
 .section-title {
   color: var(--title-text-color);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
 }
+
 .subtitle {
   color: var(--subtitle-text-color);
+
+  font-weight: 700;  
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
+.third-subtitle {
+  color: var(--subtitle-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  
+.section-team {
+  background-color: var(--second-background-color);
+}
+
+
 /* Footer */
 .footer {
   background-color: var(--footer-background-color);
+}
+
+.footer-nav-list {
+  list-style: none;
 }
 
 .footer-address {
   color: #ffffff;
   text-decoration: none;
 }
+
 .footer-address:hover,
 .footer-address:focus {
   color: var(--accent-color);
 }
+
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
