@@ -84,7 +84,7 @@ Header
   color: var(--accent-color);
 }
 
-.current {
+.current-link {
   color: var(--accent-color);
 }
 
@@ -194,6 +194,78 @@ section team
   line-height: 1.19;
   text-align: center;
 }
+
+.team-li {
+  background-color: var(--main-background-color);
+}
+
+/*
+==================
+section portfolio
+==================
+ */
+.portfolio-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  border: none;
+  height: 38px;
+  border-radius: 4px;
+
+  color: var(--title-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.activ-btn {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-li {
+  outline: 1px solid #eeeeee;
+}
+
+.portfolio-second-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
 /*
 ==================
 Footer
@@ -207,7 +279,7 @@ Footer
 .footer-address {
   line-height: 1.71;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 
   text-decoration: none;
   font-style: normal;
