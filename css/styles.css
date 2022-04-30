@@ -1,20 +1,17 @@
-/* кастомні властивості або css зміні */
 :root {
-  /* fonts */
+
 
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
-  /* text colors */
+
   --main-text-color: #757575;
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
   --title-color: #212121;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 
-  /* рамка навколо хедера → #ECECEC; */
 
-  /* background colors */
   --main-background-color: #ffffff;
   --dark-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
@@ -41,11 +38,7 @@
   margin: -1px;
 }
 
-/* 
-===============
-Header
-===============
- */
+
 
 .logo {
   text-decoration: none;
@@ -103,11 +96,7 @@ Header
   color: var(--accent-color);
 }
 
-/*
-==================
-section hero
-==================
- */
+
 .hero {
   background-color: var(--dark-background-color);
 }
@@ -136,11 +125,7 @@ section hero
   border: none;
 }
 
-/*
-==================
-section quality
-==================
- */
+
 .second-title,
 .hobbies-title,
 .team-title {
@@ -165,17 +150,7 @@ section quality
   line-height: 1.71;
 }
 
-/*
-==================
-section hobbies
-==================
- */
 
-/*
-==================
-section team
-==================
- */
 .team {
   background-color: var(--secondary-background-color);
 }
@@ -199,11 +174,7 @@ section team
   background-color: var(--main-background-color);
 }
 
-/*
-==================
-section portfolio
-==================
- */
+
 .portfolio-title {
   font-size: 44px;
   font-weight: 900;
@@ -266,11 +237,7 @@ section portfolio
   color: var(--main-text-color);
 }
 
-/*
-==================
-Footer
-==================
- */
+
 
 .footer {
   background-color: var(--dark-background-color);
