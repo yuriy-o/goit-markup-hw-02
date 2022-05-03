@@ -80,6 +80,7 @@ Header
 
     color: var(--title-color);
 }
+
 .active-text-color,
 .navigation-link:hover,
 .navigation-link:focus,
@@ -88,11 +89,9 @@ Header
 .footer-address:hover,
 .footer-address:focus,
 .footer-link:hover,
-.footer-link:focus
- {
+.footer-link:focus {
     color: var(--accent-color);
 }
-
 
 .navigation-contact {
     font-weight: 500;
@@ -103,7 +102,6 @@ Header
 
     color: var(--main-text-color);
 }
-
 
 /*
 ==================
@@ -119,7 +117,7 @@ section hero
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 0.06em;    
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 
     color: var(--secondary-text-color);
@@ -139,11 +137,9 @@ section hero
 }
 
 .hero-button:hover,
-.hero-button:focus{
+.hero-button:focus {
     background-color: var(--button-hover-color);
 }
-
-
 
 /*
 ==================
@@ -238,6 +234,7 @@ section portfolio
 
     color: var(--title-color);
 }
+
 .activ-btn,
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -250,8 +247,7 @@ section portfolio
     text-decoration: none;
 }
 
-.portfolio-item 
-    outline: 1px solid #eeeeee;
+.portfolio-item outline: 1px solid #eeeeee;
 }
 
 .portfolio-second-title {
