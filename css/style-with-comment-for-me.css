@@ -112,14 +112,14 @@ section hero
  */
 .hero {
     background-color: var(--dark-background-color);
+    text-align: center;
 }
 
 .hero-title {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-align: center;
+    letter-spacing: 0.06em;    
     text-transform: uppercase;
 
     color: var(--secondary-text-color);
@@ -131,7 +131,6 @@ section hero
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    text-align: center;
 
     color: var(--secondary-text-color);
     background-color: var(--accent-color);

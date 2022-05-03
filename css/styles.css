@@ -95,6 +95,7 @@
 
 .hero {
   background-color: var(--dark-background-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -102,7 +103,6 @@
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
 
   color: var(--secondary-text-color);
@@ -114,13 +114,13 @@
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  text-align: center;
 
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--button-hover-color);
